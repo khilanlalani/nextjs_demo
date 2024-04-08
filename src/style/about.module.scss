@@ -8,7 +8,7 @@
   @include center_div;
   min-height: 85vh;
   width: 100%;
-  background-image: url("../../public/static/about_us_bg.png");
+  background-image: url('../../public/static/about_us_bg.png');
   background-position: center 75%;
   background-size: cover;
 
@@ -16,7 +16,7 @@
     position: absolute;
     inset: 0;
     height: 85vh;
-    background-color: rgba(0,0,0,0.4); 
+    background-color: rgba(0, 0, 0, 0.4);
   }
 
   .about_bg_content {
@@ -54,7 +54,7 @@
   .about_content {
     width: 80%;
     @media (max-width: 768px) {
-        width: 90%;
+      width: 90%;
     }
     p {
       font-size: 21px;
